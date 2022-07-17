@@ -1,29 +1,25 @@
-console.log("Hello I am a console log!");
+// console.log("Hello I am a console log!");
 
 const CACHE_NAME = 'my-site-cache-v1';
 const DATA_CACHE_NAME = 'data-cache-v1';
 
 const FILES_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/public/icons/icon-72x72.png'
-  '/favicon.ico',
-  '/manifest.json',
-  '/public/css/style.css',
-  '/assets/js/loadImages.js',
-  '/public/icons/icons/icon-72x72.png',
-  '/public/icons/icons/icon-96x96.png',
-  '/public/icons/icon-128x128.png',
-  '/public/icons/icon-144x144.png'
-//   '/public/icons/1.png',
-//   '/public/icons/2.png',
-//   '/public/icons/3.png',
-//   '/public/icons/4.png',
-//   '/public/icons/5.png',
-//   '/public/icons/6.png',
-//   '/public/icons/7.png',
-//   '/public/icons/8.png'
-];
+    "/",
+    "/index.html",
+    "/manifest.json",
+    "/css/styles.css",
+    "/js/idb.js",
+    "/js/index.js",
+    "/icons/icon-72x72.png",
+    "/icons/icon-96x96.png",
+    "/icons/icon-128x128.png",
+    "/icons/icon-144x144.png",
+    "/icons/icon-152x152.png",
+    "/icons/icon-192x192.png",
+    "/icons/icon-384x384.png",
+    "/icons/icon-512x512.png"
+
+  ];
 
 // Install the service worker
 self.addEventListener('install', function(evt) {
