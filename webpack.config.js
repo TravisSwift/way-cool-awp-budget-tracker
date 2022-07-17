@@ -1,10 +1,10 @@
-const path = require("path");
+// const path = require("path");
 
-module.exports = {
-    entry: './src/app.js',
-    output: {
-      path: __dirname + '/dist',
-      filename: 'bundle.js'
-    },
-    mode: 'development'
-  };
+// module.exports = {
+//     entry: './src/app.js',
+//     output: {
+//       path: __dirname + '/dist',
+//       filename: 'bundle.js'
+//     },
+//     mode: 'development'
+//   };
