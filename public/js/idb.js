@@ -66,7 +66,7 @@ request.onsuccess = function(event) {
 
           const bankObjectStore = transaction.objectStore("bank_transaction");
 
-          bankObjectStore.ckear();
+          bankObjectStore.clear();
 
           alert("Saved transactions have been submitted");
         })
