@@ -1,4 +1,5 @@
 {
+  "homepage": "http://travisswift.github.io/way-cool-awp-budget-tracker",
   "name": "way-cool-awp-budget-tracker",
   "version": "1.0.0",
   "description": "",
@@ -7,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "lite-server": "lite-server",
-    "start:dev": "webpack-dev-server"
+    "start:dev": "webpack-dev-server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -18,14 +21,14 @@
   "bugs": {
     "url": "https://github.com/TravisSwift/way-cool-awp-budget-tracker/issues"
   },
-  "homepage": "http://travisswift.github.io/way-cool-awp-budget-tracker",
-  "dependencies": {
+    "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "webpack-dev-server": "^4.9.2"
   }
 }
