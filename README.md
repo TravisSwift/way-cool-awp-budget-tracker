@@ -27,3 +27,4 @@ IndexDB
 Service Workers
 PWA
  
+Thanks for visiting!
