@@ -30,7 +30,8 @@
     "express": "^4.17.1",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1",
-    "node.js": "^0.0.1-security"
+    "node.js": "^16.14.2"
+  
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
