@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect (
-process.env.MONGODB_URI || 'mongodb://localhost:27017/shrouded-sea-10683',
+process.env.MONGODB_URI || 'mongodb://localhost:27017/thawing-island-80269',
   
   { 
   useNewUrlParser: true,
