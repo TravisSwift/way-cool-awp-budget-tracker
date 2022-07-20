@@ -9,7 +9,7 @@
     "start:dev": "webpack-dev-server",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "node server/server.js"  },
+    "start": "node server.js" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TravisSwift/way-cool-awp-budget-tracker.git"
